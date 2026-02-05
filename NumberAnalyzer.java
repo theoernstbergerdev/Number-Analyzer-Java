@@ -19,7 +19,7 @@ public class NumberAnalyzer {
 
 
             for (int i = 0; i < numeros.length; i++) {
-                System.out.print("Digite o número " + (i + 1) + ": ");
+                System.out.print("Digite o " + (i + 1) + "º " + "número:");
                 numeros[i] = input.nextInt();
 
                 //Validação para impedir números negativos
@@ -67,3 +67,4 @@ public class NumberAnalyzer {
         }
     }
 }
+
